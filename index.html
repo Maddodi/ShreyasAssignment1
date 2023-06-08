@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+    <title>assignment</title>
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #f0eded;
+          align-content: center;
+          
+          
+        }
+        
+        li {
+          float:left;
+          font-size: 150%;
+        }
+        
+        li a {
+          display: block;
+          color: rgb(5, 5, 5);
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          display: block;
+          
+        }
+        
+        li a:hover {
+          background-color: #e7e0e0;
+        }
+
+        .firstpage{
+            position: relative;
+            height: 60em;
+            width: 100%;
+            background-image: linear-gradient(to right,#e84fbd, rgb(214, 232, 18));
+
+
+        }
+
+        .textBlock{
+            height: 25%;
+            width: 50%;
+            position: absolute;
+            bottom: 50%;
+            right: 40%;
+            background-color: rgb(218, 94, 100);
+            color: white;
+            padding-left: 30px;
+            padding-right: 30px;
+            opacity: 75%;
+            font-family: Arial;
+            
+            
+            
+        }
+
+
+
+
+
+
+        .secondpage{
+            height: 800px;
+            width: 100%;
+            background-image: linear-gradient(to right,#e84fbd, rgb(214, 232, 18));
+
+        }
+
+        .box1{
+            height:50%;
+            width: 60%;
+            border: #f0eded;
+            
+            margin-left: 15%;
+            padding: 5%;
+            background-color: aliceblue;
+            border-top-right-radius: 30%;
+            position: relative;
+            
+            
+        }
+
+        .box2{
+            height:50%;
+            width: 60%;
+            border: #f0eded;
+            margin-left: 15%;
+            padding: 5%;
+            background-color: aliceblue;
+            border-top-right-radius: 30%;
+            
+            
+        }
+
+        .box3{
+            height:50%;
+            width: 60%;
+            border: #f0eded;
+            margin-left: 15%;
+            padding: 5%;
+            background-color: aliceblue;
+            border-top-right-radius: 30%;
+        }
+
+        .row {
+        display: flex;
+        }
+
+        .box{
+        flex: 33.33%;
+        
+        
+        
+        }
+
+        
+
+        
+        
+
+       
+
+        </style>
+
+</head>
+<body style="background-color: #111;">
+    <div style="height: 50px; width: 100%; background-color: white;">
+        
+        <ul>
+            <li class="MenuBar"><a href="#Home">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Home</a></li>
+            <li><a href="#Order">& Order</a></li>
+            <li><a href="#Food">Food</a></li>
+            <li><a href="Restaurant">Restaurant</a></li>
+            <li><a href="#Testimonials">Testimonials</a></li>
+            <li><a href="#Contact Us">Contact Us</a></li>
+            <li><a href="#call">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &#9990;</a></li>
+            <li><a href="#cart">&nbsp;     &#xf07a;</a></li>
+            
+        </ul>
+
+    </div>
+    <div class="firstpage" >
+
+
+        
+        <img src="images/img1.jpg" alt="image1" style="height: 90%; width: 100%;">
+        <div class="textBlock">
+            <h1 >LOREM IPSUM</h1>
+            <p style="font-size: large; text-align:left;">Lorem Ipsum has been the industry's standard dummy </br>
+                text ever since the 1500s, when an unknown printer took </br>
+                a galley of type and scrambled it to make a type</br>
+                specimen book.
+                </p>
+        </div>
+    </div>
+
+    <br>
+    
+
+    
+    <div class ="secondpage ">
+        <br>
+        <h2 style="text-align: center;color: #f0eded; font-family: arial;font-size: 2.5em;">Order Now</h2>
+        
+
+        <div class="row">
+            <div class="box" ><img src="images/img2.jpg" alt="image_of_burger" class="box1">
+            <h2 class="infoH" style="font-family: arial;text-align:center;">PIZZA</h2>
+            <p class="info" style="font-family: arial;text-align:center;">Lorem Ipsum has been the </br>
+                industry's standard dummy text
+                </p>
+            </div>
+        <div class="box"><img src="images/img3.jpg" alt="image_of_pizza" class="box2">
+            <h2 class="infoH" style="font-family: arial;text-align:center;">PASTA</h2>
+            <p class="info" style="font-family: arial;text-align:center;">Lorem Ipsum has been the </br>
+                industry's standard dummy text
+                </p>
+        </div>
+        <div class="box"><img src="images/img4.jpg" alt="image_of_pasta" class="box3">
+            <h2 class="infoH" style="font-family: arial;text-align:center;">BURGER</h2>
+            <p class="info" style="font-family: arial;text-align:center;">Lorem Ipsum has been the </br>
+                industry's standard dummy text
+                </p>
+        </div>
+
+
+        </div>
+        
+    </div>
+    
+</body>
+</html>
